@@ -90,5 +90,5 @@ btnReg.addEventListener("click", (event) => {
     <audio src="${instanciaNueva.getSonido()}" controls>
     </audio>
     </div>`;
-    document.querySelector("#Animales").innerHTML += card;
+  document.querySelector("#Animales").innerHTML += card;
 });

@@ -16,7 +16,7 @@ class Animal {
   }
 
   getImg() {
-    return this._img;
+   return this._img
   }
 
   getComentarios() {
@@ -33,7 +33,7 @@ export class Leon extends Animal {
     super(nombre, edad, img, comentarios, sonido);
   }
 
-  rugir() {
+  rugir() {;
     return this._sonido;
   }
 }
